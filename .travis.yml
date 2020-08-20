@@ -3,6 +3,9 @@ language: node_js
 node_js:
   - "12"
 
+react-scripts:
+    - "3"
+
 script:
     - cd my-app
     - npm run build
