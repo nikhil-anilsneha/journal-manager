@@ -5,4 +5,5 @@ node_js:
 
 script:
     - cd my-app
+    - npm install react-scripts
     - npm start
