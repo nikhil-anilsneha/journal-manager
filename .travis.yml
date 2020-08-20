@@ -3,9 +3,9 @@ language: node_js
 node_js:
   - "12"
 
-npm:
-    - "install"
-
+before_script:
+    -npm install
+    
 script:
     - cd my-app
     - npm run build
